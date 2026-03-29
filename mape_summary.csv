@@ -1,0 +1,13 @@
+Drug,MAPE_%,Quality,Note
+M01AB (Diclofenac),10.1,✅ Good,Outlier corrected Oct-2019
+M01AE (Ibuprofen),15.0,✅ Good,Outlier corrected Oct-2019
+N02BA (Aspirin ),22.1,⚠️ Acceptable,Outlier corrected Oct-2019
+N02BE (Paracetamol ),12.4,✅ Good,Outlier corrected Oct-2019
+N05B (Anxiolytics ),30.0,⚠️ Acceptable,Outlier corrected Oct-2019
+N05C (Hypnotics ),21.2,⚠️ Acceptable,Outlier corrected Oct-2019
+R03 (Inhalers),50.4,❌ Review,Outlier corrected Oct-2019
+J05AH02 (Oseltamivir),205.2,❌ Review,Outlier corrected Oct-2019
+A07CA (ORS),2.4,✅ Good,Outlier corrected Oct-2019
+A11CC05 (Vitamin D),7.1,✅ Good,Outlier corrected Oct-2019
+P01BA01 (Antimalarial),154.0,❌ Review,Outlier corrected Oct-2019
+R06 (Antihistamines),20.3,⚠️ Acceptable,Outlier corrected Oct-2019

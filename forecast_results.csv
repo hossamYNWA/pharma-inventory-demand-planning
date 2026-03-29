@@ -1,0 +1,985 @@
+Date,Drug,Actual,Forecasted,Error,Abs_Error_Pct,Upper,Lower,Period,MAPE_%
+31/01/2014,M01AB (Diclofenac),127.69,101.33,,,,,Train,
+28/02/2014,M01AB (Diclofenac),133.3,133.23,,,,,Train,
+31/03/2014,M01AB (Diclofenac),137.44,146.9,,,,,Train,
+30/04/2014,M01AB (Diclofenac),113.1,144.44,,,,,Train,
+31/05/2014,M01AB (Diclofenac),101.79,130.56,,,,,Train,
+30/06/2014,M01AB (Diclofenac),112.07,115.42,,,,,Train,
+31/07/2014,M01AB (Diclofenac),117.06,136.39,,,,,Train,
+31/08/2014,M01AB (Diclofenac),134.79,137.33,,,,,Train,
+30/09/2014,M01AB (Diclofenac),108.78,117.03,,,,,Train,
+31/10/2014,M01AB (Diclofenac),154.75,130.76,,,,,Train,
+30/11/2014,M01AB (Diclofenac),138.08,133.83,,,,,Train,
+31/12/2014,M01AB (Diclofenac),131.9,128.25,,,,,Train,
+31/01/2015,M01AB (Diclofenac),135.91,91.28,,,,,Train,
+28/02/2015,M01AB (Diclofenac),115.7,128.18,,,,,Train,
+31/03/2015,M01AB (Diclofenac),156.04,138.41,,,,,Train,
+30/04/2015,M01AB (Diclofenac),154.5,143.38,,,,,Train,
+31/05/2015,M01AB (Diclofenac),160,141.13,,,,,Train,
+30/06/2015,M01AB (Diclofenac),151.87,139.05,,,,,Train,
+31/07/2015,M01AB (Diclofenac),175.61,164.45,,,,,Train,
+31/08/2015,M01AB (Diclofenac),181.69,173.75,,,,,Train,
+30/09/2015,M01AB (Diclofenac),166.22,156.32,,,,,Train,
+31/10/2015,M01AB (Diclofenac),195.81,175.02,,,,,Train,
+30/11/2015,M01AB (Diclofenac),152.78,177.22,,,,,Train,
+31/12/2015,M01AB (Diclofenac),159.46,163.77,,,,,Train,
+31/01/2016,M01AB (Diclofenac),171.65,124.62,,,,,Train,
+29/02/2016,M01AB (Diclofenac),173.81,162.18,,,,,Train,
+31/03/2016,M01AB (Diclofenac),156.64,179.02,,,,,Train,
+30/04/2016,M01AB (Diclofenac),166.61,173.02,,,,,Train,
+31/05/2016,M01AB (Diclofenac),167.36,165.97,,,,,Train,
+30/06/2016,M01AB (Diclofenac),169.67,159.1,,,,,Train,
+31/07/2016,M01AB (Diclofenac),203.97,183.88,,,,,Train,
+31/08/2016,M01AB (Diclofenac),211.13,195.63,,,,,Train,
+30/09/2016,M01AB (Diclofenac),172.96,180.28,,,,,Train,
+31/10/2016,M01AB (Diclofenac),186.76,194.26,,,,,Train,
+30/11/2016,M01AB (Diclofenac),175.18,188.7,,,,,Train,
+31/12/2016,M01AB (Diclofenac),169.32,178.24,,,,,Train,
+31/01/2017,M01AB (Diclofenac),0,137.83,,,,,Train,
+28/02/2017,M01AB (Diclofenac),139.69,124.72,,,,,Train,
+31/03/2017,M01AB (Diclofenac),162.85,142.48,,,,,Train,
+30/04/2017,M01AB (Diclofenac),155.61,148.19,,,,,Train,
+31/05/2017,M01AB (Diclofenac),143.7,144.93,,,,,Train,
+30/06/2017,M01AB (Diclofenac),122.3,137.34,,,,,Train,
+31/07/2017,M01AB (Diclofenac),159.7,155.1,,,,,Train,
+31/08/2017,M01AB (Diclofenac),170.15,162.61,,,,,Train,
+30/09/2017,M01AB (Diclofenac),138.3,145.07,,,,,Train,
+31/10/2017,M01AB (Diclofenac),137.64,159.2,,,,,Train,
+30/11/2017,M01AB (Diclofenac),163.85,149.79,,,,,Train,
+31/12/2017,M01AB (Diclofenac),160.01,146.89,,,,,Train,
+31/01/2018,M01AB (Diclofenac),132.3,112.52,,,,,Train,
+28/02/2018,M01AB (Diclofenac),128.4,142.61,,,,,Train,
+31/03/2018,M01AB (Diclofenac),146.2,152.37,,,,,Train,
+30/04/2018,M01AB (Diclofenac),170.02,150.81,,,,,Train,
+31/05/2018,M01AB (Diclofenac),160.52,150.78,,,,,Train,
+30/06/2018,M01AB (Diclofenac),141.2,146.2,,,,,Train,
+31/07/2018,M01AB (Diclofenac),150.2,166.71,,,,,Train,
+31/08/2018,M01AB (Diclofenac),140,168.43,,,,,Train,
+30/09/2018,M01AB (Diclofenac),153.5,141.04,,,,,Train,
+31/10/2018,M01AB (Diclofenac),144.71,160.44,,,,,Train,
+30/11/2018,M01AB (Diclofenac),172.29,152.63,,,,,Train,
+31/12/2018,M01AB (Diclofenac),147.71,151.26,,,,,Train,
+31/01/2019,M01AB (Diclofenac),179.7,112.32,67.38,37.5,,,Test,10.1
+28/02/2019,M01AB (Diclofenac),133.73,136.99,-3.26,2.4,,,Test,10.1
+31/03/2019,M01AB (Diclofenac),154.52,150.64,3.88,2.5,,,Test,10.1
+30/04/2019,M01AB (Diclofenac),161.39,150.78,10.61,6.6,,,Test,10.1
+31/05/2019,M01AB (Diclofenac),168.04,145.48,22.56,13.4,,,Test,10.1
+30/06/2019,M01AB (Diclofenac),151.54,138.23,13.31,8.8,,,Test,10.1
+31/07/2019,M01AB (Diclofenac),181,160.11,20.89,11.5,,,Test,10.1
+31/08/2019,M01AB (Diclofenac),181.91,166.36,15.55,8.5,,,Test,10.1
+30/09/2019,M01AB (Diclofenac),161.07,146.76,14.31,8.9,,,Test,10.1
+31/10/2019,M01AB (Diclofenac),163.93,162.74,1.19,0.7,,,Test,10.1
+31/01/2020,M01AB (Diclofenac),,170.92,,,218.05,123.8,Forecast,10.1
+29/02/2020,M01AB (Diclofenac),,164.17,,,211.3,117.05,Forecast,10.1
+31/03/2020,M01AB (Diclofenac),,138.49,,,185.61,91.36,Forecast,10.1
+30/04/2020,M01AB (Diclofenac),,151.38,,,198.51,104.26,Forecast,10.1
+31/05/2020,M01AB (Diclofenac),,166.21,,,213.33,119.08,Forecast,10.1
+30/06/2020,M01AB (Diclofenac),,167.47,,,214.59,120.34,Forecast,10.1
+31/07/2020,M01AB (Diclofenac),,164.17,,,211.29,117.05,Forecast,10.1
+31/08/2020,M01AB (Diclofenac),,155.38,,,202.51,108.26,Forecast,10.1
+30/09/2020,M01AB (Diclofenac),,178.53,,,225.66,131.41,Forecast,10.1
+31/10/2020,M01AB (Diclofenac),,183.9,,,231.02,136.77,Forecast,10.1
+30/11/2020,M01AB (Diclofenac),,164.08,,,211.2,116.96,Forecast,10.1
+31/12/2020,M01AB (Diclofenac),,177.88,,,225,130.76,Forecast,10.1
+31/01/2014,M01AE (Ibuprofen),99.09,87.68,,,,,Train,
+28/02/2014,M01AE (Ibuprofen),126.05,121.02,,,,,Train,
+31/03/2014,M01AE (Ibuprofen),92.95,122.37,,,,,Train,
+30/04/2014,M01AE (Ibuprofen),89.47,101.07,,,,,Train,
+31/05/2014,M01AE (Ibuprofen),119.93,106.07,,,,,Train,
+30/06/2014,M01AE (Ibuprofen),94.71,100.41,,,,,Train,
+31/07/2014,M01AE (Ibuprofen),95.01,110.96,,,,,Train,
+31/08/2014,M01AE (Ibuprofen),99.8,105.53,,,,,Train,
+30/09/2014,M01AE (Ibuprofen),109.09,107.93,,,,,Train,
+31/10/2014,M01AE (Ibuprofen),185.24,122.04,,,,,Train,
+30/11/2014,M01AE (Ibuprofen),100.86,113.23,,,,,Train,
+31/12/2014,M01AE (Ibuprofen),121.4,121.24,,,,,Train,
+31/01/2015,M01AE (Ibuprofen),130.35,90.48,,,,,Train,
+28/02/2015,M01AE (Ibuprofen),123.74,128.99,,,,,Train,
+31/03/2015,M01AE (Ibuprofen),129.39,128.47,,,,,Train,
+30/04/2015,M01AE (Ibuprofen),101.1,112.68,,,,,Train,
+31/05/2015,M01AE (Ibuprofen),119.12,117.68,,,,,Train,
+30/06/2015,M01AE (Ibuprofen),113.7,109.76,,,,,Train,
+31/07/2015,M01AE (Ibuprofen),113.81,122.06,,,,,Train,
+31/08/2015,M01AE (Ibuprofen),144.52,118.03,,,,,Train,
+30/09/2015,M01AE (Ibuprofen),134.12,126.29,,,,,Train,
+31/10/2015,M01AE (Ibuprofen),127.23,141.61,,,,,Train,
+30/11/2015,M01AE (Ibuprofen),128.2,118.71,,,,,Train,
+31/12/2015,M01AE (Ibuprofen),131.29,130.68,,,,,Train,
+31/01/2016,M01AE (Ibuprofen),128.4,100.01,,,,,Train,
+29/02/2016,M01AE (Ibuprofen),137.5,136.43,,,,,Train,
+31/03/2016,M01AE (Ibuprofen),180.59,137.06,,,,,Train,
+30/04/2016,M01AE (Ibuprofen),146.53,129.01,,,,,Train,
+31/05/2016,M01AE (Ibuprofen),120.86,139.3,,,,,Train,
+30/06/2016,M01AE (Ibuprofen),115,127.77,,,,,Train,
+31/07/2016,M01AE (Ibuprofen),141.02,137.04,,,,,Train,
+31/08/2016,M01AE (Ibuprofen),114.38,135.22,,,,,Train,
+30/09/2016,M01AE (Ibuprofen),126.22,134.88,,,,,Train,
+31/10/2016,M01AE (Ibuprofen),142.06,147.2,,,,,Train,
+30/11/2016,M01AE (Ibuprofen),116.85,125.98,,,,,Train,
+31/12/2016,M01AE (Ibuprofen),135.06,134.58,,,,,Train,
+31/01/2017,M01AE (Ibuprofen),0,103.87,,,,,Train,
+28/02/2017,M01AE (Ibuprofen),103.52,116.27,,,,,Train,
+31/03/2017,M01AE (Ibuprofen),111.1,114.39,,,,,Train,
+30/04/2017,M01AE (Ibuprofen),101.22,97.84,,,,,Train,
+31/05/2017,M01AE (Ibuprofen),118.12,105.55,,,,,Train,
+30/06/2017,M01AE (Ibuprofen),103.01,99.66,,,,,Train,
+31/07/2017,M01AE (Ibuprofen),116.21,111.85,,,,,Train,
+31/08/2017,M01AE (Ibuprofen),112.5,110.11,,,,,Train,
+30/09/2017,M01AE (Ibuprofen),118.71,113.99,,,,,Train,
+31/10/2017,M01AE (Ibuprofen),88.7,128.74,,,,,Train,
+30/11/2017,M01AE (Ibuprofen),119.78,101.18,,,,,Train,
+31/12/2017,M01AE (Ibuprofen),121.66,114.81,,,,,Train,
+31/01/2018,M01AE (Ibuprofen),109.45,85.27,,,,,Train,
+28/02/2018,M01AE (Ibuprofen),132.8,120.92,,,,,Train,
+31/03/2018,M01AE (Ibuprofen),111.76,123.52,,,,,Train,
+30/04/2018,M01AE (Ibuprofen),107.72,105.43,,,,,Train,
+31/05/2018,M01AE (Ibuprofen),103.52,112.95,,,,,Train,
+30/06/2018,M01AE (Ibuprofen),114.23,103.06,,,,,Train,
+31/07/2018,M01AE (Ibuprofen),132.55,116.67,,,,,Train,
+31/08/2018,M01AE (Ibuprofen),114.72,117.02,,,,,Train,
+30/09/2018,M01AE (Ibuprofen),114.99,120.05,,,,,Train,
+31/10/2018,M01AE (Ibuprofen),129.4,133.03,,,,,Train,
+30/11/2018,M01AE (Ibuprofen),105.49,112.08,,,,,Train,
+31/12/2018,M01AE (Ibuprofen),113.02,121.14,,,,,Train,
+31/01/2019,M01AE (Ibuprofen),222.35,88.87,133.48,60,,,Test,15
+28/02/2019,M01AE (Ibuprofen),142.16,120.14,22.02,15.5,,,Test,15
+31/03/2019,M01AE (Ibuprofen),113.12,120.57,-7.45,6.6,,,Test,15
+30/04/2019,M01AE (Ibuprofen),100.17,104.62,-4.45,4.4,,,Test,15
+31/05/2019,M01AE (Ibuprofen),97.26,111.72,-14.46,14.9,,,Test,15
+30/06/2019,M01AE (Ibuprofen),101.63,103.54,-1.92,1.9,,,Test,15
+31/07/2019,M01AE (Ibuprofen),103.54,115.13,-11.59,11.2,,,Test,15
+31/08/2019,M01AE (Ibuprofen),88.27,112.59,-24.32,27.6,,,Test,15
+30/09/2019,M01AE (Ibuprofen),111.44,116.04,-4.6,4.1,,,Test,15
+31/10/2019,M01AE (Ibuprofen),134.53,129.94,4.59,3.4,,,Test,15
+31/01/2020,M01AE (Ibuprofen),,113.37,,,162.04,64.69,Forecast,15
+29/02/2020,M01AE (Ibuprofen),,123.62,,,172.29,74.94,Forecast,15
+31/03/2020,M01AE (Ibuprofen),,113.93,,,162.6,65.25,Forecast,15
+30/04/2020,M01AE (Ibuprofen),,126.61,,,175.29,77.94,Forecast,15
+31/05/2020,M01AE (Ibuprofen),,122.14,,,170.81,73.46,Forecast,15
+30/06/2020,M01AE (Ibuprofen),,106.69,,,155.36,58.01,Forecast,15
+31/07/2020,M01AE (Ibuprofen),,112.12,,,160.8,63.45,Forecast,15
+31/08/2020,M01AE (Ibuprofen),,106.03,,,154.71,57.36,Forecast,15
+30/09/2020,M01AE (Ibuprofen),,116.01,,,164.69,67.33,Forecast,15
+31/10/2020,M01AE (Ibuprofen),,111.35,,,160.03,62.67,Forecast,15
+30/11/2020,M01AE (Ibuprofen),,118.08,,,166.76,69.41,Forecast,15
+31/12/2020,M01AE (Ibuprofen),,133.51,,,182.19,84.84,Forecast,15
+31/01/2014,N02BA (Aspirin ),152.1,140.62,,,,,Train,
+28/02/2014,N02BA (Aspirin ),177,158.2,,,,,Train,
+31/03/2014,N02BA (Aspirin ),147.7,159.18,,,,,Train,
+30/04/2014,N02BA (Aspirin ),130.9,144.43,,,,,Train,
+31/05/2014,N02BA (Aspirin ),132.1,144.68,,,,,Train,
+30/06/2014,N02BA (Aspirin ),122.9,145.79,,,,,Train,
+31/07/2014,N02BA (Aspirin ),129.3,138.29,,,,,Train,
+31/08/2014,N02BA (Aspirin ),123.8,139.79,,,,,Train,
+30/09/2014,N02BA (Aspirin ),122.1,132.04,,,,,Train,
+31/10/2014,N02BA (Aspirin ),191.6,162.16,,,,,Train,
+30/11/2014,N02BA (Aspirin ),142.7,153.09,,,,,Train,
+31/12/2014,N02BA (Aspirin ),111.12,143.37,,,,,Train,
+31/01/2015,N02BA (Aspirin ),141,126.98,,,,,Train,
+28/02/2015,N02BA (Aspirin ),131.8,144.57,,,,,Train,
+31/03/2015,N02BA (Aspirin ),133.8,145.55,,,,,Train,
+30/04/2015,N02BA (Aspirin ),122.1,130.8,,,,,Train,
+31/05/2015,N02BA (Aspirin ),136,131.04,,,,,Train,
+30/06/2015,N02BA (Aspirin ),145.5,132.15,,,,,Train,
+31/07/2015,N02BA (Aspirin ),125.5,124.65,,,,,Train,
+31/08/2015,N02BA (Aspirin ),133.4,126.15,,,,,Train,
+30/09/2015,N02BA (Aspirin ),110.4,118.4,,,,,Train,
+31/10/2015,N02BA (Aspirin ),146.2,148.53,,,,,Train,
+30/11/2015,N02BA (Aspirin ),145.9,139.45,,,,,Train,
+31/12/2015,N02BA (Aspirin ),137,129.73,,,,,Train,
+31/01/2016,N02BA (Aspirin ),172.5,113.35,,,,,Train,
+29/02/2016,N02BA (Aspirin ),134.2,130.93,,,,,Train,
+31/03/2016,N02BA (Aspirin ),148.4,131.91,,,,,Train,
+30/04/2016,N02BA (Aspirin ),147.7,117.16,,,,,Train,
+31/05/2016,N02BA (Aspirin ),130.55,117.41,,,,,Train,
+30/06/2016,N02BA (Aspirin ),117.8,118.52,,,,,Train,
+31/07/2016,N02BA (Aspirin ),137.9,111.02,,,,,Train,
+31/08/2016,N02BA (Aspirin ),132.7,112.52,,,,,Train,
+30/09/2016,N02BA (Aspirin ),116.7,104.77,,,,,Train,
+31/10/2016,N02BA (Aspirin ),160.2,134.89,,,,,Train,
+30/11/2016,N02BA (Aspirin ),133.85,125.82,,,,,Train,
+31/12/2016,N02BA (Aspirin ),132.4,116.1,,,,,Train,
+31/01/2017,N02BA (Aspirin ),0,99.71,,,,,Train,
+28/02/2017,N02BA (Aspirin ),97,117.3,,,,,Train,
+31/03/2017,N02BA (Aspirin ),107.35,118.28,,,,,Train,
+30/04/2017,N02BA (Aspirin ),100.5,103.53,,,,,Train,
+31/05/2017,N02BA (Aspirin ),99,103.77,,,,,Train,
+30/06/2017,N02BA (Aspirin ),119.6,104.88,,,,,Train,
+31/07/2017,N02BA (Aspirin ),75.2,97.38,,,,,Train,
+31/08/2017,N02BA (Aspirin ),84.4,98.88,,,,,Train,
+30/09/2017,N02BA (Aspirin ),88.15,91.13,,,,,Train,
+31/10/2017,N02BA (Aspirin ),100.4,121.26,,,,,Train,
+30/11/2017,N02BA (Aspirin ),104.5,112.18,,,,,Train,
+31/12/2017,N02BA (Aspirin ),115.15,102.46,,,,,Train,
+31/01/2018,N02BA (Aspirin ),101.15,86.08,,,,,Train,
+28/02/2018,N02BA (Aspirin ),114.65,103.66,,,,,Train,
+31/03/2018,N02BA (Aspirin ),122.3,104.64,,,,,Train,
+30/04/2018,N02BA (Aspirin ),84.6,89.89,,,,,Train,
+31/05/2018,N02BA (Aspirin ),89.4,90.14,,,,,Train,
+30/06/2018,N02BA (Aspirin ),86.8,91.25,,,,,Train,
+31/07/2018,N02BA (Aspirin ),87.2,83.75,,,,,Train,
+31/08/2018,N02BA (Aspirin ),88.3,85.25,,,,,Train,
+30/09/2018,N02BA (Aspirin ),86.5,77.5,,,,,Train,
+31/10/2018,N02BA (Aspirin ),76.05,107.62,,,,,Train,
+30/11/2018,N02BA (Aspirin ),102.15,98.55,,,,,Train,
+31/12/2018,N02BA (Aspirin ),84.8,88.83,,,,,Train,
+31/01/2019,N02BA (Aspirin ),99.7,72.44,27.26,27.3,,,Test,22.1
+28/02/2019,N02BA (Aspirin ),110.2,90.03,20.17,18.3,,,Test,22.1
+31/03/2019,N02BA (Aspirin ),83.35,91.01,-7.66,9.2,,,Test,22.1
+30/04/2019,N02BA (Aspirin ),88.1,76.26,11.84,13.4,,,Test,22.1
+31/05/2019,N02BA (Aspirin ),104.1,76.5,27.6,26.5,,,Test,22.1
+30/06/2019,N02BA (Aspirin ),103.2,77.61,25.59,24.8,,,Test,22.1
+31/07/2019,N02BA (Aspirin ),92.8,70.11,22.69,24.5,,,Test,22.1
+31/08/2019,N02BA (Aspirin ),84.2,71.62,12.58,14.9,,,Test,22.1
+30/09/2019,N02BA (Aspirin ),93.5,63.86,29.64,31.7,,,Test,22.1
+31/10/2019,N02BA (Aspirin ),134.89,93.99,40.9,30.3,,,Test,22.1
+31/01/2020,N02BA (Aspirin ),,106.62,,,147.08,66.17,Forecast,22.1
+29/02/2020,N02BA (Aspirin ),,96.9,,,137.36,56.45,Forecast,22.1
+31/03/2020,N02BA (Aspirin ),,86.09,,,126.55,45.63,Forecast,22.1
+30/04/2020,N02BA (Aspirin ),,102.5,,,142.96,62.05,Forecast,22.1
+31/05/2020,N02BA (Aspirin ),,98.84,,,139.3,58.39,Forecast,22.1
+30/06/2020,N02BA (Aspirin ),,87.36,,,127.81,46.9,Forecast,22.1
+31/07/2020,N02BA (Aspirin ),,90.23,,,130.69,49.77,Forecast,22.1
+31/08/2020,N02BA (Aspirin ),,90.99,,,131.44,50.53,Forecast,22.1
+30/09/2020,N02BA (Aspirin ),,83,,,123.46,42.55,Forecast,22.1
+31/10/2020,N02BA (Aspirin ),,82.81,,,123.26,42.35,Forecast,22.1
+30/11/2020,N02BA (Aspirin ),,77.91,,,118.37,37.46,Forecast,22.1
+31/12/2020,N02BA (Aspirin ),,109.9,,,150.36,69.44,Forecast,22.1
+31/01/2014,N02BE (Paracetamol ),878.03,851.95,,,,,Train,
+28/02/2014,N02BE (Paracetamol ),1001.9,945.1,,,,,Train,
+31/03/2014,N02BE (Paracetamol ),779.3,893.83,,,,,Train,
+30/04/2014,N02BE (Paracetamol ),698.5,739.51,,,,,Train,
+31/05/2014,N02BE (Paracetamol ),628.78,642.29,,,,,Train,
+30/06/2014,N02BE (Paracetamol ),548.2,548.68,,,,,Train,
+31/07/2014,N02BE (Paracetamol ),491.9,523.7,,,,,Train,
+31/08/2014,N02BE (Paracetamol ),583.85,594.5,,,,,Train,
+30/09/2014,N02BE (Paracetamol ),887.82,865.6,,,,,Train,
+31/10/2014,N02BE (Paracetamol ),1856.82,1388,,,,,Train,
+30/11/2014,N02BE (Paracetamol ),723.8,1030.92,,,,,Train,
+31/12/2014,N02BE (Paracetamol ),1015.66,1184.24,,,,,Train,
+31/01/2015,N02BE (Paracetamol ),1044.24,826.02,,,,,Train,
+28/02/2015,N02BE (Paracetamol ),953.3,972.37,,,,,Train,
+31/03/2015,N02BE (Paracetamol ),1084.85,900.09,,,,,Train,
+30/04/2015,N02BE (Paracetamol ),940.17,828.65,,,,,Train,
+31/05/2015,N02BE (Paracetamol ),765.9,773.67,,,,,Train,
+30/06/2015,N02BE (Paracetamol ),746.8,681.65,,,,,Train,
+31/07/2015,N02BE (Paracetamol ),708.83,674.84,,,,,Train,
+31/08/2015,N02BE (Paracetamol ),790.8,763.86,,,,,Train,
+30/09/2015,N02BE (Paracetamol ),852.1,1045.37,,,,,Train,
+31/10/2015,N02BE (Paracetamol ),1574.34,1508.1,,,,,Train,
+30/11/2015,N02BE (Paracetamol ),1277.7,1039.54,,,,,Train,
+31/12/2015,N02BE (Paracetamol ),1258.35,1343.85,,,,,Train,
+31/01/2016,N02BE (Paracetamol ),1476.32,1008.64,,,,,Train,
+29/02/2016,N02BE (Paracetamol ),1224.86,1224.07,,,,,Train,
+31/03/2016,N02BE (Paracetamol ),1150.7,1157.29,,,,,Train,
+30/04/2016,N02BE (Paracetamol ),998.34,1032.86,,,,,Train,
+31/05/2016,N02BE (Paracetamol ),997.15,937.44,,,,,Train,
+30/06/2016,N02BE (Paracetamol ),760.1,864.11,,,,,Train,
+31/07/2016,N02BE (Paracetamol ),652.36,810.46,,,,,Train,
+31/08/2016,N02BE (Paracetamol ),753.05,846.28,,,,,Train,
+30/09/2016,N02BE (Paracetamol ),1118.7,1094.52,,,,,Train,
+31/10/2016,N02BE (Paracetamol ),1617.28,1617.46,,,,,Train,
+30/11/2016,N02BE (Paracetamol ),1062.69,1130.51,,,,,Train,
+31/12/2016,N02BE (Paracetamol ),1624.34,1350.09,,,,,Train,
+31/01/2017,N02BE (Paracetamol ),0,1114.49,,,,,Train,
+28/02/2017,N02BE (Paracetamol ),526.35,891.81,,,,,Train,
+31/03/2017,N02BE (Paracetamol ),612.5,723.61,,,,,Train,
+30/04/2017,N02BE (Paracetamol ),540.2,570.24,,,,,Train,
+31/05/2017,N02BE (Paracetamol ),547.94,476.06,,,,,Train,
+30/06/2017,N02BE (Paracetamol ),496.1,406.09,,,,,Train,
+31/07/2017,N02BE (Paracetamol ),479.35,406.17,,,,,Train,
+31/08/2017,N02BE (Paracetamol ),549.3,506.04,,,,,Train,
+30/09/2017,N02BE (Paracetamol ),863.75,792.07,,,,,Train,
+31/10/2017,N02BE (Paracetamol ),1184.35,1328.17,,,,,Train,
+30/11/2017,N02BE (Paracetamol ),867.9,801.44,,,,,Train,
+31/12/2017,N02BE (Paracetamol ),1007.18,1058.2,,,,,Train,
+31/01/2018,N02BE (Paracetamol ),1134.3,732.54,,,,,Train,
+28/02/2018,N02BE (Paracetamol ),1255.37,929.71,,,,,Train,
+31/03/2018,N02BE (Paracetamol ),999.12,952.89,,,,,Train,
+30/04/2018,N02BE (Paracetamol ),836.04,843.09,,,,,Train,
+31/05/2018,N02BE (Paracetamol ),644.65,755.28,,,,,Train,
+30/06/2018,N02BE (Paracetamol ),584.3,634.77,,,,,Train,
+31/07/2018,N02BE (Paracetamol ),679.35,595.95,,,,,Train,
+31/08/2018,N02BE (Paracetamol ),733.8,698.65,,,,,Train,
+30/09/2018,N02BE (Paracetamol ),1058.26,982.44,,,,,Train,
+31/10/2018,N02BE (Paracetamol ),1129.28,1519.68,,,,,Train,
+30/11/2018,N02BE (Paracetamol ),995.2,924.67,,,,,Train,
+31/12/2018,N02BE (Paracetamol ),1214,1182.56,,,,,Train,
+31/01/2019,N02BE (Paracetamol ),1660.61,879.73,780.88,47,,,Test,12.4
+28/02/2019,N02BE (Paracetamol ),1001.21,965.66,35.56,3.6,,,Test,12.4
+31/03/2019,N02BE (Paracetamol ),941.1,898.66,42.44,4.5,,,Test,12.4
+30/04/2019,N02BE (Paracetamol ),647.65,776.05,-128.4,19.8,,,Test,12.4
+31/05/2019,N02BE (Paracetamol ),703.56,690.19,13.37,1.9,,,Test,12.4
+30/06/2019,N02BE (Paracetamol ),610,600.32,9.68,1.6,,,Test,12.4
+31/07/2019,N02BE (Paracetamol ),649.8,575.47,74.33,11.4,,,Test,12.4
+31/08/2019,N02BE (Paracetamol ),518.1,655.08,-136.98,26.4,,,Test,12.4
+30/09/2019,N02BE (Paracetamol ),984.48,929.13,55.35,5.6,,,Test,12.4
+31/10/2019,N02BE (Paracetamol ),1472.41,1445.38,27.03,1.8,,,Test,12.4
+31/01/2020,N02BE (Paracetamol ),,979.29,,,1414.11,544.46,Forecast,12.4
+29/02/2020,N02BE (Paracetamol ),,1218.23,,,1653.06,783.4,Forecast,12.4
+31/03/2020,N02BE (Paracetamol ),,1042.03,,,1476.86,607.2,Forecast,12.4
+30/04/2020,N02BE (Paracetamol ),,1003.17,,,1438,568.34,Forecast,12.4
+31/05/2020,N02BE (Paracetamol ),,937.94,,,1372.77,503.12,Forecast,12.4
+30/06/2020,N02BE (Paracetamol ),,786.93,,,1221.76,352.11,Forecast,12.4
+31/07/2020,N02BE (Paracetamol ),,724.64,,,1159.47,289.82,Forecast,12.4
+31/08/2020,N02BE (Paracetamol ),,633.73,,,1068.56,198.91,Forecast,12.4
+30/09/2020,N02BE (Paracetamol ),,619.66,,,1054.48,184.83,Forecast,12.4
+31/10/2020,N02BE (Paracetamol ),,663.86,,,1098.68,229.03,Forecast,12.4
+30/11/2020,N02BE (Paracetamol ),,970.89,,,1405.72,536.06,Forecast,12.4
+31/12/2020,N02BE (Paracetamol ),,1482,,,1916.83,1047.18,Forecast,12.4
+31/01/2014,N05B (Anxiolytics ),354,352.67,,,,,Train,
+28/02/2014,N05B (Anxiolytics ),347,343.07,,,,,Train,
+31/03/2014,N05B (Anxiolytics ),232,345.5,,,,,Train,
+30/04/2014,N05B (Anxiolytics ),209,228.19,,,,,Train,
+31/05/2014,N05B (Anxiolytics ),270,212.84,,,,,Train,
+30/06/2014,N05B (Anxiolytics ),323,285.47,,,,,Train,
+31/07/2014,N05B (Anxiolytics ),348,324.1,,,,,Train,
+31/08/2014,N05B (Anxiolytics ),420,376.66,,,,,Train,
+30/09/2014,N05B (Anxiolytics ),399,410.66,,,,,Train,
+31/10/2014,N05B (Anxiolytics ),472,417.15,,,,,Train,
+30/11/2014,N05B (Anxiolytics ),489,442.16,,,,,Train,
+31/12/2014,N05B (Anxiolytics ),492,504.21,,,,,Train,
+31/01/2015,N05B (Anxiolytics ),463,414.78,,,,,Train,
+28/02/2015,N05B (Anxiolytics ),243,445.71,,,,,Train,
+31/03/2015,N05B (Anxiolytics ),208,269.52,,,,,Train,
+30/04/2015,N05B (Anxiolytics ),192,197.14,,,,,Train,
+31/05/2015,N05B (Anxiolytics ),194,193.94,,,,,Train,
+30/06/2015,N05B (Anxiolytics ),217,217.21,,,,,Train,
+31/07/2015,N05B (Anxiolytics ),203,223.22,,,,,Train,
+31/08/2015,N05B (Anxiolytics ),265.5,237.64,,,,,Train,
+30/09/2015,N05B (Anxiolytics ),243.5,258.26,,,,,Train,
+31/10/2015,N05B (Anxiolytics ),222,262.07,,,,,Train,
+30/11/2015,N05B (Anxiolytics ),228,205.04,,,,,Train,
+31/12/2015,N05B (Anxiolytics ),286,246.45,,,,,Train,
+31/01/2016,N05B (Anxiolytics ),248,201.76,,,,,Train,
+29/02/2016,N05B (Anxiolytics ),239,230.98,,,,,Train,
+31/03/2016,N05B (Anxiolytics ),250,236.95,,,,,Train,
+30/04/2016,N05B (Anxiolytics ),318,229.02,,,,,Train,
+31/05/2016,N05B (Anxiolytics ),275,307.17,,,,,Train,
+30/06/2016,N05B (Anxiolytics ),311,302.58,,,,,Train,
+31/07/2016,N05B (Anxiolytics ),240,316.05,,,,,Train,
+31/08/2016,N05B (Anxiolytics ),275.5,282.22,,,,,Train,
+30/09/2016,N05B (Anxiolytics ),307,272.95,,,,,Train,
+31/10/2016,N05B (Anxiolytics ),312,318.95,,,,,Train,
+30/11/2016,N05B (Anxiolytics ),246,290.55,,,,,Train,
+31/12/2016,N05B (Anxiolytics ),257,273.6,,,,,Train,
+31/01/2017,N05B (Anxiolytics ),1,180.37,,,,,Train,
+28/02/2017,N05B (Anxiolytics ),144,14.58,,,,,Train,
+31/03/2017,N05B (Anxiolytics ),165,125.48,,,,,Train,
+30/04/2017,N05B (Anxiolytics ),132,140.44,,,,,Train,
+31/05/2017,N05B (Anxiolytics ),148,134.38,,,,,Train,
+30/06/2017,N05B (Anxiolytics ),163,169.37,,,,,Train,
+31/07/2017,N05B (Anxiolytics ),219,170.06,,,,,Train,
+31/08/2017,N05B (Anxiolytics ),239,244.26,,,,,Train,
+30/09/2017,N05B (Anxiolytics ),223,236.25,,,,,Train,
+31/10/2017,N05B (Anxiolytics ),226,241.36,,,,,Train,
+30/11/2017,N05B (Anxiolytics ),192,205.69,,,,,Train,
+31/12/2017,N05B (Anxiolytics ),226,215.42,,,,,Train,
+31/01/2018,N05B (Anxiolytics ),229,145.69,,,,,Train,
+28/02/2018,N05B (Anxiolytics ),268,206.95,,,,,Train,
+31/03/2018,N05B (Anxiolytics ),381,258.75,,,,,Train,
+30/04/2018,N05B (Anxiolytics ),289,345.22,,,,,Train,
+31/05/2018,N05B (Anxiolytics ),259,297.86,,,,,Train,
+30/06/2018,N05B (Anxiolytics ),248,287.49,,,,,Train,
+31/07/2018,N05B (Anxiolytics ),283,259.55,,,,,Train,
+31/08/2018,N05B (Anxiolytics ),253,311.72,,,,,Train,
+30/09/2018,N05B (Anxiolytics ),263,257.5,,,,,Train,
+31/10/2018,N05B (Anxiolytics ),287,278.82,,,,,Train,
+30/11/2018,N05B (Anxiolytics ),252.2,263.49,,,,,Train,
+31/12/2018,N05B (Anxiolytics ),254,275.29,,,,,Train,
+31/01/2019,N05B (Anxiolytics ),295.2,178.01,117.19,39.7,,,Test,30
+28/02/2019,N05B (Anxiolytics ),249.4,167.26,82.14,32.9,,,Test,30
+31/03/2019,N05B (Anxiolytics ),301.4,166.29,135.11,44.8,,,Test,30
+30/04/2019,N05B (Anxiolytics ),299.4,147.09,152.31,50.9,,,Test,30
+31/05/2019,N05B (Anxiolytics ),265.8,148.33,117.47,44.2,,,Test,30
+30/06/2019,N05B (Anxiolytics ),193,171.55,21.45,11.1,,,Test,30
+31/07/2019,N05B (Anxiolytics ),250.6,177.74,72.86,29.1,,,Test,30
+31/08/2019,N05B (Anxiolytics ),237,209.64,27.36,11.5,,,Test,30
+30/09/2019,N05B (Anxiolytics ),227.8,206.18,21.62,9.5,,,Test,30
+31/10/2019,N05B (Anxiolytics ),303.8,222.74,81.06,26.7,,,Test,30
+31/01/2020,N05B (Anxiolytics ),,271.58,,,380.87,162.3,Forecast,30
+29/02/2020,N05B (Anxiolytics ),,293.16,,,402.45,183.87,Forecast,30
+31/03/2020,N05B (Anxiolytics ),,237.83,,,347.12,128.54,Forecast,30
+30/04/2020,N05B (Anxiolytics ),,221.21,,,330.5,111.93,Forecast,30
+31/05/2020,N05B (Anxiolytics ),,229.07,,,338.35,119.78,Forecast,30
+30/06/2020,N05B (Anxiolytics ),,212.72,,,322.01,103.43,Forecast,30
+31/07/2020,N05B (Anxiolytics ),,208.12,,,317.41,98.84,Forecast,30
+31/08/2020,N05B (Anxiolytics ),,215.32,,,324.61,106.03,Forecast,30
+30/09/2020,N05B (Anxiolytics ),,230.07,,,339.36,120.78,Forecast,30
+31/10/2020,N05B (Anxiolytics ),,254.44,,,363.73,145.16,Forecast,30
+30/11/2020,N05B (Anxiolytics ),,249.97,,,359.25,140.68,Forecast,30
+31/12/2020,N05B (Anxiolytics ),,276.51,,,385.79,167.22,Forecast,30
+31/01/2014,N05C (Hypnotics ),50,34.47,,,,,Train,
+28/02/2014,N05C (Hypnotics ),31,33.08,,,,,Train,
+31/03/2014,N05C (Hypnotics ),20,36.27,,,,,Train,
+30/04/2014,N05C (Hypnotics ),18,26.6,,,,,Train,
+31/05/2014,N05C (Hypnotics ),23,27.53,,,,,Train,
+30/06/2014,N05C (Hypnotics ),23,25.22,,,,,Train,
+31/07/2014,N05C (Hypnotics ),21,22.36,,,,,Train,
+31/08/2014,N05C (Hypnotics ),29,25.95,,,,,Train,
+30/09/2014,N05C (Hypnotics ),14,25,,,,,Train,
+31/10/2014,N05C (Hypnotics ),30,24.24,,,,,Train,
+30/11/2014,N05C (Hypnotics ),19,28.47,,,,,Train,
+31/12/2014,N05C (Hypnotics ),25,26.54,,,,,Train,
+31/01/2015,N05C (Hypnotics ),24,25.12,,,,,Train,
+28/02/2015,N05C (Hypnotics ),9,18.98,,,,,Train,
+31/03/2015,N05C (Hypnotics ),13,19.91,,,,,Train,
+30/04/2015,N05C (Hypnotics ),5,12.92,,,,,Train,
+31/05/2015,N05C (Hypnotics ),10,14.04,,,,,Train,
+30/06/2015,N05C (Hypnotics ),12,11.87,,,,,Train,
+31/07/2015,N05C (Hypnotics ),6,9.68,,,,,Train,
+31/08/2015,N05C (Hypnotics ),15,12.61,,,,,Train,
+30/09/2015,N05C (Hypnotics ),11,11.48,,,,,Train,
+31/10/2015,N05C (Hypnotics ),8,13.72,,,,,Train,
+30/11/2015,N05C (Hypnotics ),18,14.67,,,,,Train,
+31/12/2015,N05C (Hypnotics ),28,16.4,,,,,Train,
+31/01/2016,N05C (Hypnotics ),24,18.73,,,,,Train,
+29/02/2016,N05C (Hypnotics ),20,14.41,,,,,Train,
+31/03/2016,N05C (Hypnotics ),13,19.79,,,,,Train,
+30/04/2016,N05C (Hypnotics ),18,12.83,,,,,Train,
+31/05/2016,N05C (Hypnotics ),18,17.69,,,,,Train,
+30/06/2016,N05C (Hypnotics ),20,16.76,,,,,Train,
+31/07/2016,N05C (Hypnotics ),8,15.46,,,,,Train,
+31/08/2016,N05C (Hypnotics ),12,17.31,,,,,Train,
+30/09/2016,N05C (Hypnotics ),18,13.98,,,,,Train,
+31/10/2016,N05C (Hypnotics ),11,17.5,,,,,Train,
+30/11/2016,N05C (Hypnotics ),27,18.23,,,,,Train,
+31/12/2016,N05C (Hypnotics ),18,21.51,,,,,Train,
+31/01/2017,N05C (Hypnotics ),0,19.53,,,,,Train,
+28/02/2017,N05C (Hypnotics ),7,8.13,,,,,Train,
+31/03/2017,N05C (Hypnotics ),9,11.59,,,,,Train,
+30/04/2017,N05C (Hypnotics ),9,5.83,,,,,Train,
+31/05/2017,N05C (Hypnotics ),23,10.12,,,,,Train,
+30/06/2017,N05C (Hypnotics ),8,12.77,,,,,Train,
+31/07/2017,N05C (Hypnotics ),15,9.19,,,,,Train,
+31/08/2017,N05C (Hypnotics ),12,14.83,,,,,Train,
+30/09/2017,N05C (Hypnotics ),23,12.2,,,,,Train,
+31/10/2017,N05C (Hypnotics ),15,17.66,,,,,Train,
+30/11/2017,N05C (Hypnotics ),15,19.48,,,,,Train,
+31/12/2017,N05C (Hypnotics ),6,18.98,,,,,Train,
+31/01/2018,N05C (Hypnotics ),11,14.3,,,,,Train,
+28/02/2018,N05C (Hypnotics ),12,7.54,,,,,Train,
+31/03/2018,N05C (Hypnotics ),42,12.59,,,,,Train,
+30/04/2018,N05C (Hypnotics ),21,15.96,,,,,Train,
+31/05/2018,N05C (Hypnotics ),13,20.78,,,,,Train,
+30/06/2018,N05C (Hypnotics ),18,17.54,,,,,Train,
+31/07/2018,N05C (Hypnotics ),19,15.45,,,,,Train,
+31/08/2018,N05C (Hypnotics ),20,20.44,,,,,Train,
+30/09/2018,N05C (Hypnotics ),12,18.5,,,,,Train,
+31/10/2018,N05C (Hypnotics ),25,19.02,,,,,Train,
+30/11/2018,N05C (Hypnotics ),22,23.31,,,,,Train,
+31/12/2018,N05C (Hypnotics ),27,23.71,,,,,Train,
+31/01/2019,N05C (Hypnotics ),23,23.67,-0.67,2.9,,,Test,21.2
+28/02/2019,N05C (Hypnotics ),12,17.85,-5.85,48.8,,,Test,21.2
+31/03/2019,N05C (Hypnotics ),19,21.63,-2.63,13.8,,,Test,21.2
+30/04/2019,N05C (Hypnotics ),22,16.61,5.39,24.5,,,Test,21.2
+31/05/2019,N05C (Hypnotics ),26,19.99,6.01,23.1,,,Test,21.2
+30/06/2019,N05C (Hypnotics ),25,18.97,6.03,24.1,,,Test,21.2
+31/07/2019,N05C (Hypnotics ),20,16.75,3.25,16.2,,,Test,21.2
+31/08/2019,N05C (Hypnotics ),26,20.73,5.27,20.3,,,Test,21.2
+30/09/2019,N05C (Hypnotics ),16,18.91,-2.91,18.2,,,Test,21.2
+31/10/2019,N05C (Hypnotics ),17.8,21.29,-3.49,19.6,,,Test,21.2
+31/01/2020,N05C (Hypnotics ),,24.16,,,38.7,9.61,Forecast,21.2
+29/02/2020,N05C (Hypnotics ),,24.92,,,39.47,10.38,Forecast,21.2
+31/03/2020,N05C (Hypnotics ),,23.81,,,38.36,9.27,Forecast,21.2
+30/04/2020,N05C (Hypnotics ),,17.13,,,31.68,2.58,Forecast,21.2
+31/05/2020,N05C (Hypnotics ),,21.44,,,35.99,6.89,Forecast,21.2
+30/06/2020,N05C (Hypnotics ),,17.75,,,32.3,3.2,Forecast,21.2
+31/07/2020,N05C (Hypnotics ),,21.24,,,35.78,6.69,Forecast,21.2
+31/08/2020,N05C (Hypnotics ),,20.22,,,34.76,5.67,Forecast,21.2
+30/09/2020,N05C (Hypnotics ),,17.53,,,32.08,2.98,Forecast,21.2
+31/10/2020,N05C (Hypnotics ),,21.84,,,36.39,7.3,Forecast,21.2
+30/11/2020,N05C (Hypnotics ),,18.66,,,33.21,4.12,Forecast,21.2
+31/12/2020,N05C (Hypnotics ),,20.94,,,35.49,6.4,Forecast,21.2
+31/01/2014,R03 (Inhalers),112,85.69,,,,,Train,
+28/02/2014,R03 (Inhalers),122,146.63,,,,,Train,
+31/03/2014,R03 (Inhalers),112,143.38,,,,,Train,
+30/04/2014,R03 (Inhalers),97,109.36,,,,,Train,
+31/05/2014,R03 (Inhalers),107,67.42,,,,,Train,
+30/06/2014,R03 (Inhalers),57,76.66,,,,,Train,
+31/07/2014,R03 (Inhalers),61,29.18,,,,,Train,
+31/08/2014,R03 (Inhalers),37,38.73,,,,,Train,
+30/09/2014,R03 (Inhalers),115,85.97,,,,,Train,
+31/10/2014,R03 (Inhalers),182,198.25,,,,,Train,
+30/11/2014,R03 (Inhalers),112,148.66,,,,,Train,
+31/12/2014,R03 (Inhalers),163,195.56,,,,,Train,
+31/01/2015,R03 (Inhalers),177.3,108.04,,,,,Train,
+28/02/2015,R03 (Inhalers),208,182.68,,,,,Train,
+31/03/2015,R03 (Inhalers),195,195.37,,,,,Train,
+30/04/2015,R03 (Inhalers),97,171.26,,,,,Train,
+31/05/2015,R03 (Inhalers),100,109.56,,,,,Train,
+30/06/2015,R03 (Inhalers),193,103.11,,,,,Train,
+31/07/2015,R03 (Inhalers),60,90.59,,,,,Train,
+31/08/2015,R03 (Inhalers),45,80.23,,,,,Train,
+30/09/2015,R03 (Inhalers),91,116.78,,,,,Train,
+31/10/2015,R03 (Inhalers),184,211.56,,,,,Train,
+30/11/2015,R03 (Inhalers),195,158.37,,,,,Train,
+31/12/2015,R03 (Inhalers),231,228.66,,,,,Train,
+31/01/2016,R03 (Inhalers),174,152.27,,,,,Train,
+29/02/2016,R03 (Inhalers),245,211.75,,,,,Train,
+31/03/2016,R03 (Inhalers),253,226.97,,,,,Train,
+30/04/2016,R03 (Inhalers),216,211.28,,,,,Train,
+31/05/2016,R03 (Inhalers),131,174.79,,,,,Train,
+30/06/2016,R03 (Inhalers),127,157.42,,,,,Train,
+31/07/2016,R03 (Inhalers),109,106.5,,,,,Train,
+31/08/2016,R03 (Inhalers),116,106.7,,,,,Train,
+30/09/2016,R03 (Inhalers),121,157.46,,,,,Train,
+31/10/2016,R03 (Inhalers),220,248.83,,,,,Train,
+30/11/2016,R03 (Inhalers),150,195.23,,,,,Train,
+31/12/2016,R03 (Inhalers),275,239.4,,,,,Train,
+31/01/2017,R03 (Inhalers),0,173.63,,,,,Train,
+28/02/2017,R03 (Inhalers),117,170.75,,,,,Train,
+31/03/2017,R03 (Inhalers),139,158.21,,,,,Train,
+30/04/2017,R03 (Inhalers),209,128.08,,,,,Train,
+31/05/2017,R03 (Inhalers),128,115.91,,,,,Train,
+30/06/2017,R03 (Inhalers),163,116.37,,,,,Train,
+31/07/2017,R03 (Inhalers),115,90.05,,,,,Train,
+31/08/2017,R03 (Inhalers),75,97.41,,,,,Train,
+30/09/2017,R03 (Inhalers),139,138.05,,,,,Train,
+31/10/2017,R03 (Inhalers),247,241.36,,,,,Train,
+30/11/2017,R03 (Inhalers),196,198.76,,,,,Train,
+31/12/2017,R03 (Inhalers),204,256.48,,,,,Train,
+31/01/2018,R03 (Inhalers),219,162.6,,,,,Train,
+28/02/2018,R03 (Inhalers),253,233.14,,,,,Train,
+31/03/2018,R03 (Inhalers),269,244.09,,,,,Train,
+30/04/2018,R03 (Inhalers),229,228.04,,,,,Train,
+31/05/2018,R03 (Inhalers),192,190.35,,,,,Train,
+30/06/2018,R03 (Inhalers),101,187.48,,,,,Train,
+31/07/2018,R03 (Inhalers),90,118.67,,,,,Train,
+31/08/2018,R03 (Inhalers),159,108.92,,,,,Train,
+30/09/2018,R03 (Inhalers),205,172.7,,,,,Train,
+31/10/2018,R03 (Inhalers),353,286.02,,,,,Train,
+30/11/2018,R03 (Inhalers),311,263,,,,,Train,
+31/12/2018,R03 (Inhalers),384,336.92,,,,,Train,
+31/01/2019,R03 (Inhalers),386,274.81,111.19,28.8,,,Test,50.4
+28/02/2019,R03 (Inhalers),226,327.35,-101.35,44.8,,,Test,50.4
+31/03/2019,R03 (Inhalers),257,331.96,-74.96,29.2,,,Test,50.4
+30/04/2019,R03 (Inhalers),259,307.96,-48.96,18.9,,,Test,50.4
+31/05/2019,R03 (Inhalers),322,269.97,52.03,16.2,,,Test,50.4
+30/06/2019,R03 (Inhalers),142,266.57,-124.57,87.7,,,Test,50.4
+31/07/2019,R03 (Inhalers),115,225.36,-110.36,96,,,Test,50.4
+31/08/2019,R03 (Inhalers),145,224.76,-79.76,55,,,Test,50.4
+30/09/2019,R03 (Inhalers),161,272.56,-111.56,69.3,,,Test,50.4
+31/10/2019,R03 (Inhalers),237.2,375.57,-138.37,58.3,,,Test,50.4
+31/01/2020,R03 (Inhalers),,234.54,,,331.17,137.91,Forecast,50.4
+29/02/2020,R03 (Inhalers),,293.11,,,389.74,196.47,Forecast,50.4
+31/03/2020,R03 (Inhalers),,233.94,,,330.57,137.31,Forecast,50.4
+30/04/2020,R03 (Inhalers),,251.07,,,347.7,154.43,Forecast,50.4
+31/05/2020,R03 (Inhalers),,260.03,,,356.66,163.4,Forecast,50.4
+30/06/2020,R03 (Inhalers),,240.39,,,337.02,143.75,Forecast,50.4
+31/07/2020,R03 (Inhalers),,219.19,,,315.82,122.56,Forecast,50.4
+31/08/2020,R03 (Inhalers),,186.36,,,282.99,89.73,Forecast,50.4
+30/09/2020,R03 (Inhalers),,147.51,,,244.15,50.88,Forecast,50.4
+31/10/2020,R03 (Inhalers),,152.01,,,248.65,55.38,Forecast,50.4
+30/11/2020,R03 (Inhalers),,194.53,,,291.17,97.9,Forecast,50.4
+31/12/2020,R03 (Inhalers),,293.07,,,389.7,196.43,Forecast,50.4
+31/01/2014,J05AH02 (Oseltamivir),88,88,,,,,Train,
+28/02/2014,J05AH02 (Oseltamivir),72,69.42,,,,,Train,
+31/03/2014,J05AH02 (Oseltamivir),35,29.62,,,,,Train,
+30/04/2014,J05AH02 (Oseltamivir),15,10.62,,,,,Train,
+31/05/2014,J05AH02 (Oseltamivir),6,5.22,,,,,Train,
+30/06/2014,J05AH02 (Oseltamivir),3,1.62,,,,,Train,
+31/07/2014,J05AH02 (Oseltamivir),2,1.82,,,,,Train,
+31/08/2014,J05AH02 (Oseltamivir),2,1.62,,,,,Train,
+30/09/2014,J05AH02 (Oseltamivir),10,10.82,,,,,Train,
+31/10/2014,J05AH02 (Oseltamivir),28,29.42,,,,,Train,
+30/11/2014,J05AH02 (Oseltamivir),58,61.42,,,,,Train,
+31/12/2014,J05AH02 (Oseltamivir),145,154.82,,,,,Train,
+31/01/2015,J05AH02 (Oseltamivir),95,87.53,,,,,Train,
+28/02/2015,J05AH02 (Oseltamivir),78,76.42,,,,,Train,
+31/03/2015,J05AH02 (Oseltamivir),38,35.62,,,,,Train,
+30/04/2015,J05AH02 (Oseltamivir),14,13.62,,,,,Train,
+31/05/2015,J05AH02 (Oseltamivir),5,4.22,,,,,Train,
+30/06/2015,J05AH02 (Oseltamivir),2,0.62,,,,,Train,
+31/07/2015,J05AH02 (Oseltamivir),2,0.82,,,,,Train,
+31/08/2015,J05AH02 (Oseltamivir),2,1.62,,,,,Train,
+30/09/2015,J05AH02 (Oseltamivir),11,10.82,,,,,Train,
+31/10/2015,J05AH02 (Oseltamivir),30,30.42,,,,,Train,
+30/11/2015,J05AH02 (Oseltamivir),62,63.42,,,,,Train,
+31/12/2015,J05AH02 (Oseltamivir),155,158.82,,,,,Train,
+31/01/2016,J05AH02 (Oseltamivir),100,97.53,,,,,Train,
+29/02/2016,J05AH02 (Oseltamivir),82,81.42,,,,,Train,
+31/03/2016,J05AH02 (Oseltamivir),40,39.62,,,,,Train,
+30/04/2016,J05AH02 (Oseltamivir),16,15.62,,,,,Train,
+31/05/2016,J05AH02 (Oseltamivir),7,6.22,,,,,Train,
+30/06/2016,J05AH02 (Oseltamivir),3,2.62,,,,,Train,
+31/07/2016,J05AH02 (Oseltamivir),2,1.82,,,,,Train,
+31/08/2016,J05AH02 (Oseltamivir),3,1.62,,,,,Train,
+30/09/2016,J05AH02 (Oseltamivir),12,11.82,,,,,Train,
+31/10/2016,J05AH02 (Oseltamivir),32,31.42,,,,,Train,
+30/11/2016,J05AH02 (Oseltamivir),66,65.42,,,,,Train,
+31/12/2016,J05AH02 (Oseltamivir),165,162.82,,,,,Train,
+31/01/2017,J05AH02 (Oseltamivir),105,107.53,,,,,Train,
+28/02/2017,J05AH02 (Oseltamivir),86,86.42,,,,,Train,
+31/03/2017,J05AH02 (Oseltamivir),42,43.62,,,,,Train,
+30/04/2017,J05AH02 (Oseltamivir),17,17.62,,,,,Train,
+31/05/2017,J05AH02 (Oseltamivir),8,7.22,,,,,Train,
+30/06/2017,J05AH02 (Oseltamivir),3,3.62,,,,,Train,
+31/07/2017,J05AH02 (Oseltamivir),3,1.82,,,,,Train,
+31/08/2017,J05AH02 (Oseltamivir),3,2.62,,,,,Train,
+30/09/2017,J05AH02 (Oseltamivir),13,11.82,,,,,Train,
+31/10/2017,J05AH02 (Oseltamivir),34,32.42,,,,,Train,
+30/11/2017,J05AH02 (Oseltamivir),70,67.42,,,,,Train,
+31/12/2017,J05AH02 (Oseltamivir),172,166.82,,,,,Train,
+31/01/2018,J05AH02 (Oseltamivir),110,114.53,,,,,Train,
+28/02/2018,J05AH02 (Oseltamivir),90,91.42,,,,,Train,
+31/03/2018,J05AH02 (Oseltamivir),44,47.62,,,,,Train,
+30/04/2018,J05AH02 (Oseltamivir),18,19.62,,,,,Train,
+31/05/2018,J05AH02 (Oseltamivir),8,8.22,,,,,Train,
+30/06/2018,J05AH02 (Oseltamivir),4,3.62,,,,,Train,
+31/07/2018,J05AH02 (Oseltamivir),3,2.82,,,,,Train,
+31/08/2018,J05AH02 (Oseltamivir),3,2.62,,,,,Train,
+30/09/2018,J05AH02 (Oseltamivir),14,11.82,,,,,Train,
+31/10/2018,J05AH02 (Oseltamivir),36,33.42,,,,,Train,
+30/11/2018,J05AH02 (Oseltamivir),74,69.42,,,,,Train,
+31/12/2018,J05AH02 (Oseltamivir),180,170.82,,,,,Train,
+31/01/2019,J05AH02 (Oseltamivir),115,122.53,-7.53,6.5,,,Test,205.2
+28/02/2019,J05AH02 (Oseltamivir),94,103.96,-9.96,10.6,,,Test,205.2
+31/03/2019,J05AH02 (Oseltamivir),46,61.58,-15.58,33.9,,,Test,205.2
+30/04/2019,J05AH02 (Oseltamivir),19,37.2,-18.2,95.8,,,Test,205.2
+31/05/2019,J05AH02 (Oseltamivir),9,27.43,-18.43,204.8,,,Test,205.2
+30/06/2019,J05AH02 (Oseltamivir),4,23.05,-19.05,476.2,,,Test,205.2
+31/07/2019,J05AH02 (Oseltamivir),3,21.88,-18.88,629.3,,,Test,205.2
+31/08/2019,J05AH02 (Oseltamivir),4,21.5,-17.5,437.5,,,Test,205.2
+30/09/2019,J05AH02 (Oseltamivir),15,30.33,-15.33,102.2,,,Test,205.2
+31/10/2019,J05AH02 (Oseltamivir),32,49.75,-17.75,55.5,,,Test,205.2
+31/01/2020,J05AH02 (Oseltamivir),,65.73,,,71.31,60.15,Forecast,205.2
+29/02/2020,J05AH02 (Oseltamivir),,162.86,,,168.44,157.28,Forecast,205.2
+31/03/2020,J05AH02 (Oseltamivir),,104.19,,,109.77,98.61,Forecast,205.2
+30/04/2020,J05AH02 (Oseltamivir),,85.47,,,91.04,79.89,Forecast,205.2
+31/05/2020,J05AH02 (Oseltamivir),,42.41,,,47.99,36.83,Forecast,205.2
+30/06/2020,J05AH02 (Oseltamivir),,17.85,,,23.43,12.27,Forecast,205.2
+31/07/2020,J05AH02 (Oseltamivir),,8.29,,,13.87,2.71,Forecast,205.2
+31/08/2020,J05AH02 (Oseltamivir),,4.07,,,9.64,0,Forecast,205.2
+30/09/2020,J05AH02 (Oseltamivir),,3.17,,,8.75,0,Forecast,205.2
+31/10/2020,J05AH02 (Oseltamivir),,3.28,,,8.86,0,Forecast,205.2
+30/11/2020,J05AH02 (Oseltamivir),,12.72,,,18.3,7.15,Forecast,205.2
+31/12/2020,J05AH02 (Oseltamivir),,32,,,37.58,26.42,Forecast,205.2
+31/01/2014,A07CA (ORS),55,55,,,,,Train,
+28/02/2014,A07CA (ORS),52,51.8,,,,,Train,
+31/03/2014,A07CA (ORS),65,65.2,,,,,Train,
+30/04/2014,A07CA (ORS),85,85,,,,,Train,
+31/05/2014,A07CA (ORS),120,122.2,,,,,Train,
+30/06/2014,A07CA (ORS),245,252.2,,,,,Train,
+31/07/2014,A07CA (ORS),280,281.2,,,,,Train,
+31/08/2014,A07CA (ORS),265,263.8,,,,,Train,
+30/09/2014,A07CA (ORS),130,122.8,,,,,Train,
+31/10/2014,A07CA (ORS),88,86.4,,,,,Train,
+30/11/2014,A07CA (ORS),62,61.2,,,,,Train,
+31/12/2014,A07CA (ORS),52,52,,,,,Train,
+31/01/2015,A07CA (ORS),57,56.75,,,,,Train,
+28/02/2015,A07CA (ORS),54,53.8,,,,,Train,
+31/03/2015,A07CA (ORS),67,67.2,,,,,Train,
+30/04/2015,A07CA (ORS),87,87,,,,,Train,
+31/05/2015,A07CA (ORS),124,124.2,,,,,Train,
+30/06/2015,A07CA (ORS),252,256.2,,,,,Train,
+31/07/2015,A07CA (ORS),288,288.2,,,,,Train,
+31/08/2015,A07CA (ORS),272,271.8,,,,,Train,
+30/09/2015,A07CA (ORS),134,129.8,,,,,Train,
+31/10/2015,A07CA (ORS),90,90.4,,,,,Train,
+30/11/2015,A07CA (ORS),64,63.2,,,,,Train,
+31/12/2015,A07CA (ORS),54,54,,,,,Train,
+31/01/2016,A07CA (ORS),58,58.75,,,,,Train,
+29/02/2016,A07CA (ORS),55,54.8,,,,,Train,
+31/03/2016,A07CA (ORS),68,68.2,,,,,Train,
+30/04/2016,A07CA (ORS),88,88,,,,,Train,
+31/05/2016,A07CA (ORS),126,125.2,,,,,Train,
+30/06/2016,A07CA (ORS),258,258.2,,,,,Train,
+31/07/2016,A07CA (ORS),294,294.2,,,,,Train,
+31/08/2016,A07CA (ORS),278,277.8,,,,,Train,
+30/09/2016,A07CA (ORS),136,135.8,,,,,Train,
+31/10/2016,A07CA (ORS),92,92.4,,,,,Train,
+30/11/2016,A07CA (ORS),65,65.2,,,,,Train,
+31/12/2016,A07CA (ORS),55,55,,,,,Train,
+31/01/2017,A07CA (ORS),60,59.75,,,,,Train,
+28/02/2017,A07CA (ORS),57,56.8,,,,,Train,
+31/03/2017,A07CA (ORS),70,70.2,,,,,Train,
+30/04/2017,A07CA (ORS),90,90,,,,,Train,
+31/05/2017,A07CA (ORS),128,127.2,,,,,Train,
+30/06/2017,A07CA (ORS),264,260.2,,,,,Train,
+31/07/2017,A07CA (ORS),300,300.2,,,,,Train,
+31/08/2017,A07CA (ORS),284,283.8,,,,,Train,
+30/09/2017,A07CA (ORS),138,141.8,,,,,Train,
+31/10/2017,A07CA (ORS),94,94.4,,,,,Train,
+30/11/2017,A07CA (ORS),67,67.2,,,,,Train,
+31/12/2017,A07CA (ORS),57,57,,,,,Train,
+31/01/2018,A07CA (ORS),62,61.75,,,,,Train,
+28/02/2018,A07CA (ORS),58,58.8,,,,,Train,
+31/03/2018,A07CA (ORS),72,71.2,,,,,Train,
+30/04/2018,A07CA (ORS),92,92,,,,,Train,
+31/05/2018,A07CA (ORS),130,129.2,,,,,Train,
+30/06/2018,A07CA (ORS),270,262.2,,,,,Train,
+31/07/2018,A07CA (ORS),308,306.2,,,,,Train,
+31/08/2018,A07CA (ORS),290,291.8,,,,,Train,
+30/09/2018,A07CA (ORS),140,147.8,,,,,Train,
+31/10/2018,A07CA (ORS),96,96.4,,,,,Train,
+30/11/2018,A07CA (ORS),68,69.2,,,,,Train,
+31/12/2018,A07CA (ORS),58,58,,,,,Train,
+31/01/2019,A07CA (ORS),63,62.75,0.25,0.4,,,Test,2.4
+28/02/2019,A07CA (ORS),60,59.55,0.45,0.8,,,Test,2.4
+31/03/2019,A07CA (ORS),73,72.75,0.25,0.3,,,Test,2.4
+30/04/2019,A07CA (ORS),93,92.75,0.25,0.3,,,Test,2.4
+31/05/2019,A07CA (ORS),132,129.95,2.05,1.6,,,Test,2.4
+30/06/2019,A07CA (ORS),276,262.15,13.85,5,,,Test,2.4
+31/07/2019,A07CA (ORS),315,298.35,16.65,5.3,,,Test,2.4
+31/08/2019,A07CA (ORS),296,282.15,13.85,4.7,,,Test,2.4
+30/09/2019,A07CA (ORS),142,139.95,2.05,1.4,,,Test,2.4
+31/10/2019,A07CA (ORS),92,96.35,-4.35,4.7,,,Test,2.4
+31/01/2020,A07CA (ORS),,70.91,,,75.07,66.76,Forecast,2.4
+29/02/2020,A07CA (ORS),,60.91,,,65.07,56.76,Forecast,2.4
+31/03/2020,A07CA (ORS),,65.91,,,70.07,61.76,Forecast,2.4
+30/04/2020,A07CA (ORS),,62.91,,,67.07,58.76,Forecast,2.4
+31/05/2020,A07CA (ORS),,75.91,,,80.07,71.76,Forecast,2.4
+30/06/2020,A07CA (ORS),,95.91,,,100.07,91.76,Forecast,2.4
+31/07/2020,A07CA (ORS),,134.91,,,139.07,130.76,Forecast,2.4
+31/08/2020,A07CA (ORS),,278.91,,,283.07,274.76,Forecast,2.4
+30/09/2020,A07CA (ORS),,317.91,,,322.07,313.76,Forecast,2.4
+31/10/2020,A07CA (ORS),,298.91,,,303.07,294.76,Forecast,2.4
+30/11/2020,A07CA (ORS),,144.91,,,149.07,140.76,Forecast,2.4
+31/12/2020,A07CA (ORS),,101.83,,,105.98,97.67,Forecast,2.4
+31/01/2014,A11CC05 (Vitamin D),285,285,,,,,Train,
+28/02/2014,A11CC05 (Vitamin D),270,270,,,,,Train,
+31/03/2014,A11CC05 (Vitamin D),210,209.4,,,,,Train,
+30/04/2014,A11CC05 (Vitamin D),155,152.2,,,,,Train,
+31/05/2014,A11CC05 (Vitamin D),95,93.4,,,,,Train,
+30/06/2014,A11CC05 (Vitamin D),58,57,,,,,Train,
+31/07/2014,A11CC05 (Vitamin D),55,54.4,,,,,Train,
+31/08/2014,A11CC05 (Vitamin D),62,61.8,,,,,Train,
+30/09/2014,A11CC05 (Vitamin D),105,106.6,,,,,Train,
+31/10/2014,A11CC05 (Vitamin D),168,169.8,,,,,Train,
+30/11/2014,A11CC05 (Vitamin D),240,243.4,,,,,Train,
+31/12/2014,A11CC05 (Vitamin D),275,275,,,,,Train,
+31/01/2015,A11CC05 (Vitamin D),290,290,,,,,Train,
+28/02/2015,A11CC05 (Vitamin D),275,275,,,,,Train,
+31/03/2015,A11CC05 (Vitamin D),215,214.4,,,,,Train,
+30/04/2015,A11CC05 (Vitamin D),158,157.2,,,,,Train,
+31/05/2015,A11CC05 (Vitamin D),98,96.4,,,,,Train,
+30/06/2015,A11CC05 (Vitamin D),60,60,,,,,Train,
+31/07/2015,A11CC05 (Vitamin D),57,56.4,,,,,Train,
+31/08/2015,A11CC05 (Vitamin D),64,63.8,,,,,Train,
+30/09/2015,A11CC05 (Vitamin D),108,108.6,,,,,Train,
+31/10/2015,A11CC05 (Vitamin D),172,172.8,,,,,Train,
+30/11/2015,A11CC05 (Vitamin D),245,247.4,,,,,Train,
+31/12/2015,A11CC05 (Vitamin D),280,280,,,,,Train,
+31/01/2016,A11CC05 (Vitamin D),295,295,,,,,Train,
+29/02/2016,A11CC05 (Vitamin D),280,280,,,,,Train,
+31/03/2016,A11CC05 (Vitamin D),220,219.4,,,,,Train,
+30/04/2016,A11CC05 (Vitamin D),162,162.2,,,,,Train,
+31/05/2016,A11CC05 (Vitamin D),100,100.4,,,,,Train,
+30/06/2016,A11CC05 (Vitamin D),62,62,,,,,Train,
+31/07/2016,A11CC05 (Vitamin D),58,58.4,,,,,Train,
+31/08/2016,A11CC05 (Vitamin D),65,64.8,,,,,Train,
+30/09/2016,A11CC05 (Vitamin D),110,109.6,,,,,Train,
+31/10/2016,A11CC05 (Vitamin D),175,174.8,,,,,Train,
+30/11/2016,A11CC05 (Vitamin D),250,250.4,,,,,Train,
+31/12/2016,A11CC05 (Vitamin D),285,285,,,,,Train,
+31/01/2017,A11CC05 (Vitamin D),300,300,,,,,Train,
+28/02/2017,A11CC05 (Vitamin D),285,285,,,,,Train,
+31/03/2017,A11CC05 (Vitamin D),224,224.4,,,,,Train,
+30/04/2017,A11CC05 (Vitamin D),165,166.2,,,,,Train,
+31/05/2017,A11CC05 (Vitamin D),102,103.4,,,,,Train,
+30/06/2017,A11CC05 (Vitamin D),64,64,,,,,Train,
+31/07/2017,A11CC05 (Vitamin D),60,60.4,,,,,Train,
+31/08/2017,A11CC05 (Vitamin D),67,66.8,,,,,Train,
+30/09/2017,A11CC05 (Vitamin D),112,111.6,,,,,Train,
+31/10/2017,A11CC05 (Vitamin D),178,176.8,,,,,Train,
+30/11/2017,A11CC05 (Vitamin D),255,253.4,,,,,Train,
+31/12/2017,A11CC05 (Vitamin D),290,290,,,,,Train,
+31/01/2018,A11CC05 (Vitamin D),305,305,,,,,Train,
+28/02/2018,A11CC05 (Vitamin D),290,290,,,,,Train,
+31/03/2018,A11CC05 (Vitamin D),228,229.4,,,,,Train,
+30/04/2018,A11CC05 (Vitamin D),168,170.2,,,,,Train,
+31/05/2018,A11CC05 (Vitamin D),105,106.4,,,,,Train,
+30/06/2018,A11CC05 (Vitamin D),66,67,,,,,Train,
+31/07/2018,A11CC05 (Vitamin D),62,62.4,,,,,Train,
+31/08/2018,A11CC05 (Vitamin D),68,68.8,,,,,Train,
+30/09/2018,A11CC05 (Vitamin D),114,112.6,,,,,Train,
+31/10/2018,A11CC05 (Vitamin D),180,178.8,,,,,Train,
+30/11/2018,A11CC05 (Vitamin D),260,255.4,,,,,Train,
+31/12/2018,A11CC05 (Vitamin D),295,295,,,,,Train,
+31/01/2019,A11CC05 (Vitamin D),310,310,0,0,,,Test,7.1
+28/02/2019,A11CC05 (Vitamin D),294,295,-1,0.3,,,Test,7.1
+31/03/2019,A11CC05 (Vitamin D),232,234.4,-2.4,1,,,Test,7.1
+30/04/2019,A11CC05 (Vitamin D),170,176.6,-6.6,3.9,,,Test,7.1
+31/05/2019,A11CC05 (Vitamin D),107,115,-8,7.5,,,Test,7.1
+30/06/2019,A11CC05 (Vitamin D),68,77,-9,13.2,,,Test,7.1
+31/07/2019,A11CC05 (Vitamin D),64,73.4,-9.4,14.7,,,Test,7.1
+31/08/2019,A11CC05 (Vitamin D),70,80.2,-10.2,14.6,,,Test,7.1
+30/09/2019,A11CC05 (Vitamin D),116,124.8,-8.8,7.6,,,Test,7.1
+31/10/2019,A11CC05 (Vitamin D),174.6,189.6,-15,8.6,,,Test,7.1
+31/01/2020,A11CC05 (Vitamin D),,250,,,252.76,247.24,Forecast,7.1
+29/02/2020,A11CC05 (Vitamin D),,285,,,287.76,282.24,Forecast,7.1
+31/03/2020,A11CC05 (Vitamin D),,300,,,302.76,297.24,Forecast,7.1
+30/04/2020,A11CC05 (Vitamin D),,284.83,,,287.59,282.08,Forecast,7.1
+31/05/2020,A11CC05 (Vitamin D),,224,,,226.76,221.24,Forecast,7.1
+30/06/2020,A11CC05 (Vitamin D),,165.5,,,168.26,162.74,Forecast,7.1
+31/07/2020,A11CC05 (Vitamin D),,103.67,,,106.42,100.91,Forecast,7.1
+31/08/2020,A11CC05 (Vitamin D),,65.5,,,68.26,62.74,Forecast,7.1
+30/09/2020,A11CC05 (Vitamin D),,61.83,,,64.59,59.08,Forecast,7.1
+31/10/2020,A11CC05 (Vitamin D),,68.5,,,71.26,65.74,Forecast,7.1
+30/11/2020,A11CC05 (Vitamin D),,113.33,,,116.09,110.58,Forecast,7.1
+31/12/2020,A11CC05 (Vitamin D),,177.1,,,179.86,174.34,Forecast,7.1
+31/01/2014,P01BA01 (Antimalarial),8,7.8,,,,,Train,
+28/02/2014,P01BA01 (Antimalarial),6,6,,,,,Train,
+31/03/2014,P01BA01 (Antimalarial),7,7,,,,,Train,
+30/04/2014,P01BA01 (Antimalarial),8,8,,,,,Train,
+31/05/2014,P01BA01 (Antimalarial),9,9,,,,,Train,
+30/06/2014,P01BA01 (Antimalarial),10,10,,,,,Train,
+31/07/2014,P01BA01 (Antimalarial),12,11.6,,,,,Train,
+31/08/2014,P01BA01 (Antimalarial),18,107.2,,,,,Train,
+30/09/2014,P01BA01 (Antimalarial),45,249.6,,,,,Train,
+31/10/2014,P01BA01 (Antimalarial),380,87.8,,,,,Train,
+30/11/2014,P01BA01 (Antimalarial),15,9.4,,,,,Train,
+31/12/2014,P01BA01 (Antimalarial),8,7.2,,,,,Train,
+31/01/2015,P01BA01 (Antimalarial),8,7.8,,,,,Train,
+28/02/2015,P01BA01 (Antimalarial),6,6,,,,,Train,
+31/03/2015,P01BA01 (Antimalarial),7,7,,,,,Train,
+30/04/2015,P01BA01 (Antimalarial),8,8,,,,,Train,
+31/05/2015,P01BA01 (Antimalarial),9,9,,,,,Train,
+30/06/2015,P01BA01 (Antimalarial),10,10,,,,,Train,
+31/07/2015,P01BA01 (Antimalarial),12,11.6,,,,,Train,
+31/08/2015,P01BA01 (Antimalarial),40,107.2,,,,,Train,
+30/09/2015,P01BA01 (Antimalarial),390,249.6,,,,,Train,
+31/10/2015,P01BA01 (Antimalarial),18,87.8,,,,,Train,
+30/11/2015,P01BA01 (Antimalarial),8,9.4,,,,,Train,
+31/12/2015,P01BA01 (Antimalarial),7,7.2,,,,,Train,
+31/01/2016,P01BA01 (Antimalarial),7,7.8,,,,,Train,
+29/02/2016,P01BA01 (Antimalarial),6,6,,,,,Train,
+31/03/2016,P01BA01 (Antimalarial),7,7,,,,,Train,
+30/04/2016,P01BA01 (Antimalarial),8,8,,,,,Train,
+31/05/2016,P01BA01 (Antimalarial),9,9,,,,,Train,
+30/06/2016,P01BA01 (Antimalarial),10,10,,,,,Train,
+31/07/2016,P01BA01 (Antimalarial),11,11.6,,,,,Train,
+31/08/2016,P01BA01 (Antimalarial),38,107.2,,,,,Train,
+30/09/2016,P01BA01 (Antimalarial),395,249.6,,,,,Train,
+31/10/2016,P01BA01 (Antimalarial),16,87.8,,,,,Train,
+30/11/2016,P01BA01 (Antimalarial),8,9.4,,,,,Train,
+31/12/2016,P01BA01 (Antimalarial),7,7.2,,,,,Train,
+31/01/2017,P01BA01 (Antimalarial),8,7.8,,,,,Train,
+28/02/2017,P01BA01 (Antimalarial),6,6,,,,,Train,
+31/03/2017,P01BA01 (Antimalarial),7,7,,,,,Train,
+30/04/2017,P01BA01 (Antimalarial),8,8,,,,,Train,
+31/05/2017,P01BA01 (Antimalarial),9,9,,,,,Train,
+30/06/2017,P01BA01 (Antimalarial),10,10,,,,,Train,
+31/07/2017,P01BA01 (Antimalarial),11,11.6,,,,,Train,
+31/08/2017,P01BA01 (Antimalarial),35,107.2,,,,,Train,
+30/09/2017,P01BA01 (Antimalarial),400,249.6,,,,,Train,
+31/10/2017,P01BA01 (Antimalarial),15,87.8,,,,,Train,
+30/11/2017,P01BA01 (Antimalarial),8,9.4,,,,,Train,
+31/12/2017,P01BA01 (Antimalarial),7,7.2,,,,,Train,
+31/01/2018,P01BA01 (Antimalarial),8,7.8,,,,,Train,
+28/02/2018,P01BA01 (Antimalarial),6,6,,,,,Train,
+31/03/2018,P01BA01 (Antimalarial),7,7,,,,,Train,
+30/04/2018,P01BA01 (Antimalarial),8,8,,,,,Train,
+31/05/2018,P01BA01 (Antimalarial),9,9,,,,,Train,
+30/06/2018,P01BA01 (Antimalarial),10,10,,,,,Train,
+31/07/2018,P01BA01 (Antimalarial),12,11.6,,,,,Train,
+31/08/2018,P01BA01 (Antimalarial),405,107.2,,,,,Train,
+30/09/2018,P01BA01 (Antimalarial),18,249.6,,,,,Train,
+31/10/2018,P01BA01 (Antimalarial),10,87.8,,,,,Train,
+30/11/2018,P01BA01 (Antimalarial),8,9.4,,,,,Train,
+31/12/2018,P01BA01 (Antimalarial),7,7.2,,,,,Train,
+31/01/2019,P01BA01 (Antimalarial),8,7.8,0.2,2.5,,,Test,154
+28/02/2019,P01BA01 (Antimalarial),6,6,0,0,,,Test,154
+31/03/2019,P01BA01 (Antimalarial),7,7,0,0,,,Test,154
+30/04/2019,P01BA01 (Antimalarial),8,8,0,0,,,Test,154
+31/05/2019,P01BA01 (Antimalarial),9,9,0,0,,,Test,154
+30/06/2019,P01BA01 (Antimalarial),10,10,0,0,,,Test,154
+31/07/2019,P01BA01 (Antimalarial),12,11.6,0.4,3.3,,,Test,154
+31/08/2019,P01BA01 (Antimalarial),410,107.2,302.8,73.9,,,Test,154
+30/09/2019,P01BA01 (Antimalarial),16,249.6,-233.6,1460,,,Test,154
+31/10/2019,P01BA01 (Antimalarial),87.8,87.8,0,0,,,Test,154
+31/01/2020,P01BA01 (Antimalarial),,8,,,180.08,0,Forecast,154
+29/02/2020,P01BA01 (Antimalarial),,7,,,179.08,0,Forecast,154
+31/03/2020,P01BA01 (Antimalarial),,8,,,180.08,0,Forecast,154
+30/04/2020,P01BA01 (Antimalarial),,6,,,178.08,0,Forecast,154
+31/05/2020,P01BA01 (Antimalarial),,7,,,179.08,0,Forecast,154
+30/06/2020,P01BA01 (Antimalarial),,8,,,180.08,0,Forecast,154
+31/07/2020,P01BA01 (Antimalarial),,9,,,181.08,0,Forecast,154
+31/08/2020,P01BA01 (Antimalarial),,10,,,182.08,0,Forecast,154
+30/09/2020,P01BA01 (Antimalarial),,12,,,184.08,0,Forecast,154
+31/10/2020,P01BA01 (Antimalarial),,410,,,582.08,237.92,Forecast,154
+30/11/2020,P01BA01 (Antimalarial),,16,,,188.08,0,Forecast,154
+31/12/2020,P01BA01 (Antimalarial),,10,,,182.08,0,Forecast,154
+31/01/2014,R06 (Antihistamines),48.2,28.01,,,,,Train,
+28/02/2014,R06 (Antihistamines),36.2,30.95,,,,,Train,
+31/03/2014,R06 (Antihistamines),85.4,73.33,,,,,Train,
+30/04/2014,R06 (Antihistamines),73.7,122.29,,,,,Train,
+31/05/2014,R06 (Antihistamines),123.7,147.8,,,,,Train,
+30/06/2014,R06 (Antihistamines),109.3,117.29,,,,,Train,
+31/07/2014,R06 (Antihistamines),69.1,92.67,,,,,Train,
+31/08/2014,R06 (Antihistamines),70.8,69.37,,,,,Train,
+30/09/2014,R06 (Antihistamines),58.8,59.59,,,,,Train,
+31/10/2014,R06 (Antihistamines),74.5,55.83,,,,,Train,
+30/11/2014,R06 (Antihistamines),45.2,35.85,,,,,Train,
+31/12/2014,R06 (Antihistamines),33.4,30.81,,,,,Train,
+31/01/2015,R06 (Antihistamines),42,33.63,,,,,Train,
+28/02/2015,R06 (Antihistamines),47,36.57,,,,,Train,
+31/03/2015,R06 (Antihistamines),54,78.95,,,,,Train,
+30/04/2015,R06 (Antihistamines),112,127.91,,,,,Train,
+31/05/2015,R06 (Antihistamines),159.5,153.41,,,,,Train,
+30/06/2015,R06 (Antihistamines),125.8,122.91,,,,,Train,
+31/07/2015,R06 (Antihistamines),130.3,98.29,,,,,Train,
+31/08/2015,R06 (Antihistamines),83.7,74.99,,,,,Train,
+30/09/2015,R06 (Antihistamines),71,65.21,,,,,Train,
+31/10/2015,R06 (Antihistamines),72,61.45,,,,,Train,
+30/11/2015,R06 (Antihistamines),44,41.47,,,,,Train,
+31/12/2015,R06 (Antihistamines),41.7,36.43,,,,,Train,
+31/01/2016,R06 (Antihistamines),56.5,39.24,,,,,Train,
+29/02/2016,R06 (Antihistamines),58,42.18,,,,,Train,
+31/03/2016,R06 (Antihistamines),97.8,84.56,,,,,Train,
+30/04/2016,R06 (Antihistamines),162.4,133.52,,,,,Train,
+31/05/2016,R06 (Antihistamines),137.1,159.03,,,,,Train,
+30/06/2016,R06 (Antihistamines),134.8,128.52,,,,,Train,
+31/07/2016,R06 (Antihistamines),116.8,103.9,,,,,Train,
+31/08/2016,R06 (Antihistamines),85.3,80.6,,,,,Train,
+30/09/2016,R06 (Antihistamines),69.3,70.82,,,,,Train,
+31/10/2016,R06 (Antihistamines),60.9,67.06,,,,,Train,
+30/11/2016,R06 (Antihistamines),51.2,47.08,,,,,Train,
+31/12/2016,R06 (Antihistamines),34.9,42.04,,,,,Train,
+31/01/2017,R06 (Antihistamines),0,44.85,,,,,Train,
+28/02/2017,R06 (Antihistamines),30.6,47.79,,,,,Train,
+31/03/2017,R06 (Antihistamines),100.1,90.17,,,,,Train,
+30/04/2017,R06 (Antihistamines),122.4,139.13,,,,,Train,
+31/05/2017,R06 (Antihistamines),161.8,164.64,,,,,Train,
+30/06/2017,R06 (Antihistamines),151.9,134.13,,,,,Train,
+31/07/2017,R06 (Antihistamines),81.1,109.51,,,,,Train,
+31/08/2017,R06 (Antihistamines),60.1,86.21,,,,,Train,
+30/09/2017,R06 (Antihistamines),66.9,76.43,,,,,Train,
+31/10/2017,R06 (Antihistamines),51,72.67,,,,,Train,
+30/11/2017,R06 (Antihistamines),46.6,52.69,,,,,Train,
+31/12/2017,R06 (Antihistamines),47.1,47.65,,,,,Train,
+31/01/2018,R06 (Antihistamines),49.5,50.47,,,,,Train,
+28/02/2018,R06 (Antihistamines),39.1,53.41,,,,,Train,
+31/03/2018,R06 (Antihistamines),85.5,95.79,,,,,Train,
+30/04/2018,R06 (Antihistamines),197.1,144.75,,,,,Train,
+31/05/2018,R06 (Antihistamines),213.04,170.26,,,,,Train,
+30/06/2018,R06 (Antihistamines),120.8,139.75,,,,,Train,
+31/07/2018,R06 (Antihistamines),122.2,115.13,,,,,Train,
+31/08/2018,R06 (Antihistamines),103.1,91.83,,,,,Train,
+30/09/2018,R06 (Antihistamines),88.1,82.05,,,,,Train,
+31/10/2018,R06 (Antihistamines),76.9,78.29,,,,,Train,
+30/11/2018,R06 (Antihistamines),48.4,58.31,,,,,Train,
+31/12/2018,R06 (Antihistamines),53.1,53.27,,,,,Train,
+31/01/2019,R06 (Antihistamines),41.3,56.08,-14.78,35.8,,,Test,20.3
+28/02/2019,R06 (Antihistamines),69.5,59.02,10.48,15.1,,,Test,20.3
+31/03/2019,R06 (Antihistamines),169.5,101.4,68.1,40.2,,,Test,20.3
+30/04/2019,R06 (Antihistamines),179.1,150.36,28.74,16,,,Test,20.3
+31/05/2019,R06 (Antihistamines),135.4,175.87,-40.47,29.9,,,Test,20.3
+30/06/2019,R06 (Antihistamines),156,145.36,10.64,6.8,,,Test,20.3
+31/07/2019,R06 (Antihistamines),105.2,120.74,-15.54,14.8,,,Test,20.3
+31/08/2019,R06 (Antihistamines),97.3,97.44,-0.14,0.1,,,Test,20.3
+30/09/2019,R06 (Antihistamines),109.1,87.66,21.44,19.7,,,Test,20.3
+31/10/2019,R06 (Antihistamines),67.06,83.9,-16.84,25.1,,,Test,20.3
+31/01/2020,R06 (Antihistamines),,65.91,,,104.41,27.4,Forecast,20.3
+29/02/2020,R06 (Antihistamines),,60.87,,,99.37,22.36,Forecast,20.3
+31/03/2020,R06 (Antihistamines),,61.55,,,100.05,23.04,Forecast,20.3
+30/04/2020,R06 (Antihistamines),,68.7,,,107.2,30.19,Forecast,20.3
+31/05/2020,R06 (Antihistamines),,120.68,,,159.19,82.18,Forecast,20.3
+30/06/2020,R06 (Antihistamines),,163.08,,,201.59,124.58,Forecast,20.3
+31/07/2020,R06 (Antihistamines),,177.05,,,215.56,138.55,Forecast,20.3
+31/08/2020,R06 (Antihistamines),,155.06,,,193.57,116.56,Forecast,20.3
+30/09/2020,R06 (Antihistamines),,126.08,,,164.59,87.58,Forecast,20.3
+31/10/2020,R06 (Antihistamines),,105.35,,,143.85,66.84,Forecast,20.3
+30/11/2020,R06 (Antihistamines),,99.16,,,137.67,60.66,Forecast,20.3
+31/12/2020,R06 (Antihistamines),,89.02,,,127.53,50.52,Forecast,20.3
